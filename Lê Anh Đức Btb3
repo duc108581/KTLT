@@ -1,0 +1,27 @@
+package leanhduc;
+
+public class Duc108581 {
+    public static void main(String[] args) {
+        // Thông tin học sinh
+        String maSinhVien = "108581";
+        String hoTen = "Lê Anh Đức";
+        String ngaySinh = "03/04/2006";
+        int tuoi = 18;
+        String gioiTinh = "Nam";
+        String lop = "IT24B";
+        String khoa = "Công nghệ thông tin";
+        String diaChi = "Đà Nẵng";
+        
+        // Hiển thị thông tin
+        System.out.println("-----THÔNG TIN HỌC SINH-----");
+        System.out.println("Mã sinh viên: " + maSinhVien);
+        System.out.println("Họ và tên: " + hoTen);
+        System.out.println("Ngày sinh: " + ngaySinh);
+        System.out.println("Tuổi: " + tuoi);
+        System.out.println("Giới tính: " + gioiTinh);
+        System.out.println("Lớp: " + lop);
+        System.out.println("Khoa: " + khoa);
+        System.out.println("Địa chỉ: " + diaChi);
+        System.out.println("-----Hết-----");
+    }
+}
